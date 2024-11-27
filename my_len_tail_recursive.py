@@ -5,8 +5,8 @@ This module provides a function `my_len_tail_recursive` that calculates the leng
 without using the built-in `len()` function. It uses a tail-recursive helper function to count
 the elements in the iterable. The code includes detailed documentation and test cases for clarity.
 
-Author: [Your Name]
-Date: [Today's Date]
+Author: Usama Munir
+Date: Nov 26th, 2024
 """
 
 def my_len_tail_recursive(iterable):
