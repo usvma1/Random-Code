@@ -7,8 +7,8 @@ This script demonstrates the core principles of TCP:
 - Data Transmission
 - Connection Termination (FIN, ACK)
 
-Author: [Your Name]
-Date: [Today's Date]
+Author: Usama Munir
+Date: Nov 26th, 2024
 """
 
 import socket
