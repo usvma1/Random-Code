@@ -80,7 +80,7 @@ For secure communication, start the secure server:
 python secure_server.py
 ```
 
-### **2. Run the Client
+### **2. Run the Client**
 Start the client in another terminal:
 
 ```bash
