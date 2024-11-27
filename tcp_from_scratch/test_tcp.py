@@ -1,9 +1,3 @@
-
----
-
-A basic test script to verify client-server communication.
-
-```python
 """
 test_tcp.py
 
