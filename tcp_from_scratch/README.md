@@ -20,3 +20,10 @@ This project demonstrates a simplified implementation of TCP using Python. It mi
 Run the server in one terminal:
 ```bash
 python tcp_server.py
+```
+
+### 2. Start the Client
+Run the client in another terminal:
+```bash
+python tcp_server.py
+```
