@@ -21,7 +21,12 @@ This project demonstrates a simplified implementation of TCP using Python. It mi
 5. **Packet Loss Simulation**:
    - Introduces packet loss during transmission for educational purposes.
    - Includes a retry mechanism to ensure reliable communication.
-6. **Retry Mechanism**:
+6. **Secure Communication**:
+   - Implements end-to-end secure communication using:
+     - **Diffie-Hellman**: For secure key exchange.
+     - **AES**: For encrypting transmitted data.
+     - **HMAC**: For ensuring data integrity and authenticity.
+7. **Retry Mechanism**:
    - Retries dropped packets until an acknowledgment is received.
 
 ---
@@ -41,6 +46,12 @@ This project demonstrates a simplified implementation of TCP using Python. It mi
   - Client implementation with packet loss simulation and retry mechanism.
 - **`tcp_server_with_packet_loss.py`**:
   - Server implementation for handling packet loss during communication.
+
+### Secure Communication
+- **`secure_server.py`**:
+  - A server implementation with secure communication using Diffie-Hellman, AES, and HMAC.
+- **`secure_client.py`**:
+  - A client implementation complementing `secure_server.py` for secure communication.
 
 ### Testing
 - **`test_tcp.py`**:
@@ -63,6 +74,12 @@ To use the packet loss feature, start the server with packet loss handling:
 python tcp_server_with_packet_loss.py
 ```
 
+For secure communication, start the secure server:
+
+```bash
+python secure_server.py
+```
+
 ### **2. Run the Client
 Start the client in another terminal:
 
@@ -74,4 +91,10 @@ To simulate packet loss, use:
 
 ```bash
 python tcp_client_with_packet_loss.py
+```
+
+For secure communication, use the secure client:
+
+```bash
+python secure_client.py
 ```
