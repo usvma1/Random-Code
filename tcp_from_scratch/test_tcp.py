@@ -1,8 +1,6 @@
 
 ---
 
-### **File 4: `test_tcp.py`**
-
 A basic test script to verify client-server communication.
 
 ```python
